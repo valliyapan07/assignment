@@ -78,6 +78,7 @@ h1{
 }
 main{
   display: flex;
+  height: 100vh;
 }
 .left{
   width: 26%;
