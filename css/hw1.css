@@ -16,21 +16,25 @@ table th{
   color: #ffffff;
   font-size: 26px;
   font-weight: 500;
-  border-radius: 7px 7px 0 0;
+  border: 1px solid;
   border-bottom: 5px solid #000000;
+  border-radius: 7px 7px 0 0;
   padding: 15px;
 }
-table tr{
+table tr:first-child ~ tr{
   background-color: #2874a6;
-  color: #000000;
   opacity: 0.8;
 }
-table tr:hover{
+table tr:first-child ~ tr:hover{
   opacity: 1;
 }
 table td{
   padding: 10px;
   text-align: center;
+  color: #000000;
+  border: 1px solid;
+  border-radius: 2px;
+  text-shadow: 2px 2px #808080;
 }
 table tr td:first-child, table tr th:first-child{
   text-align: left;
