@@ -8,11 +8,11 @@ table{
   font-family: sans-serif, Arial, Helvetica;
   font-size: 21px;
   line-height: 30px;
-  width: 80%;
+  width: 90%;
   margin: 25px auto;
 }
 table th{
-  background-color: #5b2c6f;
+  background: linear-gradient(180deg,#055aae,#02a6e0);
   color: #ffffff;
   font-size: 26px;
   font-weight: 500;
@@ -22,8 +22,8 @@ table th{
   padding: 15px;
 }
 table tr:first-child ~ tr{
-  background-color: #2874a6;
-  opacity: 0.8;
+  background-color: mediumvioletred;
+  opacity: 0.7;
 }
 table tr:first-child ~ tr:hover{
   opacity: 1;
@@ -31,10 +31,9 @@ table tr:first-child ~ tr:hover{
 table td{
   padding: 10px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   border: 1px solid;
   border-radius: 2px;
-  text-shadow: 2px 2px #808080;
 }
 table tr td:first-child, table tr th:first-child{
   text-align: left;
@@ -50,7 +49,8 @@ header{
 }
 nav{
   margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 nav a{
   background: #ffffff;
@@ -79,15 +79,12 @@ h1{
 main{
   display: flex;
 }
-.left,.right{
-  float: left;
-}
 .left{
-  width: 23%;
+  width: 26%;
   background-color: #808000;
 }
 .right{
-  width: 70%;
+  width: 72%;
   margin-left: 2%;
 }
 img{
